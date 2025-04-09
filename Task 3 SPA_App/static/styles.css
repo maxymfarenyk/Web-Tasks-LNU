@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: -;
+    padding-left: 0;
+    text-align: left;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Форми */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Лінки */
+a {
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Профіль користувача */
+.profile-info {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+.profile-info span {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Стилі для головної сторінки */
+.home-page h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.home-page p {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.home-page a {
+    font-size: 18px;
+}
