@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container home-page">
+        <h2>Привіт, {{ username }}!</h2>
+        <p>На цьому сайті ти можеш дізнатись про відомих людей, що мають твоє ім'я</p>
+        <a href="{{ url_for('profile') }}">Перейти до профілю</a><br>
+        <a href="{{ url_for('info') }}">Перейти до інформації</a><br>
+        <a href="{{ url_for('logout') }}">Вийти</a>
+    </div>
+</body>
+</html>

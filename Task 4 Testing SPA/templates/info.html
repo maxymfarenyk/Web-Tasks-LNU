@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інформація</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Інформація про користувача: {{ username }}</h2>
+
+        <h3>Статті на Wikipedia:</h3>
+        {% if articles %}
+            <ul>
+                {% for article in articles %}
+                    <li><a href="https://en.wikipedia.org/wiki/{{ article }}" target="_blank">{{ article }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Не знайдено статей для {{ username }} на Wikipedia.</p>
+        {% endif %}
+
+        <a href="{{ url_for('home') }}">Назад на головну</a><br>
+        <a href="{{ url_for('logout') }}">Вийти</a>
+    </div>
+</body>
+</html>
