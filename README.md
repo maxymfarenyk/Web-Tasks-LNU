@@ -1,6 +1,6 @@
 # Web-Tasks-LNU
 
-## Task 4. Testing
+## Task 4. Testing (P.S. Task 5. Deployment is [here](https://github.com/maxymfarenyk/google-name-finder))
 
 Використовуємо веб-застосунок із [Task 3](https://github.com/maxymfarenyk/Web-Tasks-LNU/tree/main/Task%203%20SPA_App)
 
