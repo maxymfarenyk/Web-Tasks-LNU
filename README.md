@@ -78,12 +78,13 @@ class WebsiteUser(HttpUser):
 
         self.client.get("/info", cookies=cookies)
 ```
+![image](https://github.com/user-attachments/assets/ca4caa94-ef01-47b3-bb19-52bf53c6df69)
 
-![image](https://github.com/user-attachments/assets/084e0fda-397c-452a-95ec-e2e6a7f5c796)
+![image](https://github.com/user-attachments/assets/9051beec-87e5-405d-9bbb-4129f4c3023c)
 
-![image](https://github.com/user-attachments/assets/ba00b701-c9c5-4700-8255-4c1cfec80cdd)
+![image](https://github.com/user-attachments/assets/168e3a53-fca8-41da-956b-4665690288f9)
 
-![image](https://github.com/user-attachments/assets/3481b968-8bea-4527-b723-8da103117f69)
+![image](https://github.com/user-attachments/assets/6ef7988f-96c2-492b-8020-4d0f2b4ec6de)
 
 ### 3. Scraping
 
