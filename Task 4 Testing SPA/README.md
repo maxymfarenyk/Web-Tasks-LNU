@@ -1,8 +1,8 @@
-## Task 4. Testing
+# Task 4. Testing
 
 Використовуємо веб-застосунок із [Task 3](https://github.com/maxymfarenyk/Web-Tasks-LNU/tree/main/Task%203%20SPA_App)
 
-### 1. Testing Coverage 30%
+## 1. Testing Coverage 30%
 
 Створюємо tests/**test_app.py**
 
@@ -47,7 +47,7 @@ def test_register_login_logout(client):
 ![image_2025-04-17_13-21-21](https://github.com/user-attachments/assets/ccfdf647-802f-4313-8f4d-f638b1c8dc98)
 
 
-### 2. Performance test
+## 2. Performance test
 
 Створюємо tests/**locustfile.py**
 
@@ -84,7 +84,7 @@ class WebsiteUser(HttpUser):
 
 ![image](https://github.com/user-attachments/assets/6ef7988f-96c2-492b-8020-4d0f2b4ec6de)
 
-### 3. Scraping
+## 3. Scraping
 
 Створюємо tests/**scraper.py**
 
